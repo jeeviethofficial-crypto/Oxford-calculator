@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+¡`import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { ScientificCalculator } from './features/ScientificCalculator';
 import { MatrixCalculator } from './features/MatrixCalculator';
 import { GraphingCalculator } from './features/GraphingCalculator';
@@ -20,7 +20,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <Router>
+    <Router basename="/Oxford-calculator">
       <div className="min-h-screen flex flex-col transition-colors duration-200">
         <header className="bg-blue-900 text-white p-4 shadow-md sticky top-0 z-50">
           <div className="container mx-auto flex justify-between items-center">
